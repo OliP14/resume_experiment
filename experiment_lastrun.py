@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.1.3),
-    on October 30, 2024, at 12:14
+    on November 14, 2024, at 20:45
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -40,7 +40,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '2023.1.3'
-expName = 'calib_ET'  # from the Builder filename that created this script
+expName = 'experiment'  # from the Builder filename that created this script
 expInfo = {
     'task': 'calib',
     'participant': '',
@@ -59,7 +59,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='U:\\cpsc4120\\resume_experiment\\calib_ET_lastrun.py',
+    originPath='U:\\cpsc4120\\resume_experiment\\experiment_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -104,7 +104,7 @@ ioConfig['Keyboard'] = dict(use_keymap='psychopy')
 ioSession = '1'
 if 'session' in expInfo:
     ioSession = str(expInfo['session'])
-ioServer = io.launchHubServer(window=win, experiment_code='calib_ET', session_code=ioSession, datastore_name=filename, **ioConfig)
+ioServer = io.launchHubServer(window=win, experiment_code='experiment', session_code=ioSession, datastore_name=filename, **ioConfig)
 eyetracker = ioServer.getDevice('tracker')
 
 # create a default keyboard (e.g. to check for escape)
@@ -112,7 +112,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "calib_instr" ---
 calib_instr_text = visual.TextStim(win=win, name='calib_instr_text',
-    text="We must first calibrate the eye tracker.\n\nKeep your eye on the calibration do but don't anticipate it's movement.\n\nPress space to continue.",
+    text="We must first calibrate the eye tracker.\n\nKeep your eye on the calibration do but don't anticipate it's movement.\n\nThere will be a 9-point calibration process followed by a 5-point validation step to ensure the calibration was successful.\n\nPress space to continue.",
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -136,13 +136,24 @@ calib_resp = keyboard.Keyboard()
 
 # --- Initialize components for Routine "ready_up" ---
 text = visual.TextStim(win=win, name='text',
-    text='You will have 8 seconds to view each resume and 3 questions will be asked after each resume.\n\nPress the space bar to begin the experiment',
+    text='You will have 8 seconds to view each resume and 3 questions will be asked after each resume.\n\nThe job posting will be presented to you before viewing each resume.\n\nPress the space bar to begin the experiment',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
 key_resp = keyboard.Keyboard()
+
+# --- Initialize components for Routine "job_posting" ---
+job_description = visual.ImageStim(
+    win=win,
+    name='job_description', 
+    image='Eye Tracking Expeirement Job App.png', mask=None, anchor='center',
+    ori=0.0, pos=(0, 0), size=(0.8, 0.8),
+    color=[1,1,1], colorSpace='rgb', opacity=None,
+    flipHoriz=False, flipVert=False,
+    texRes=128.0, interpolate=True, depth=0.0)
+job_posting_key_resp = keyboard.Keyboard()
 
 # --- Initialize components for Routine "exp1_stimulus" ---
 image = visual.ImageStim(
@@ -208,13 +219,24 @@ comprehension_rating = visual.Slider(win=win, name='comprehension_rating',
 
 # --- Initialize components for Routine "ready_up" ---
 text = visual.TextStim(win=win, name='text',
-    text='You will have 8 seconds to view each resume and 3 questions will be asked after each resume.\n\nPress the space bar to begin the experiment',
+    text='You will have 8 seconds to view each resume and 3 questions will be asked after each resume.\n\nThe job posting will be presented to you before viewing each resume.\n\nPress the space bar to begin the experiment',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
 key_resp = keyboard.Keyboard()
+
+# --- Initialize components for Routine "job_posting" ---
+job_description = visual.ImageStim(
+    win=win,
+    name='job_description', 
+    image='Eye Tracking Expeirement Job App.png', mask=None, anchor='center',
+    ori=0.0, pos=(0, 0), size=(0.8, 0.8),
+    color=[1,1,1], colorSpace='rgb', opacity=None,
+    flipHoriz=False, flipVert=False,
+    texRes=128.0, interpolate=True, depth=0.0)
+job_posting_key_resp = keyboard.Keyboard()
 
 # --- Initialize components for Routine "exp2_stimulus" ---
 image_2 = visual.ImageStim(
@@ -699,6 +721,118 @@ for thisExp1_stimulus_loop in exp1_stimulus_loop:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # the Routine "ready_up" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
+    # --- Prepare to start Routine "job_posting" ---
+    continueRoutine = True
+    # update component parameters for each repeat
+    job_posting_key_resp.keys = []
+    job_posting_key_resp.rt = []
+    _job_posting_key_resp_allKeys = []
+    # keep track of which components have finished
+    job_postingComponents = [job_description, job_posting_key_resp]
+    for thisComponent in job_postingComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "job_posting" ---
+    routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *job_description* updates
+        
+        # if job_description is starting this frame...
+        if job_description.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            job_description.frameNStart = frameN  # exact frame index
+            job_description.tStart = t  # local t and not account for scr refresh
+            job_description.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(job_description, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'job_description.started')
+            # update status
+            job_description.status = STARTED
+            job_description.setAutoDraw(True)
+        
+        # if job_description is active this frame...
+        if job_description.status == STARTED:
+            # update params
+            pass
+        
+        # *job_posting_key_resp* updates
+        waitOnFlip = False
+        
+        # if job_posting_key_resp is starting this frame...
+        if job_posting_key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            job_posting_key_resp.frameNStart = frameN  # exact frame index
+            job_posting_key_resp.tStart = t  # local t and not account for scr refresh
+            job_posting_key_resp.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(job_posting_key_resp, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'job_posting_key_resp.started')
+            # update status
+            job_posting_key_resp.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(job_posting_key_resp.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(job_posting_key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if job_posting_key_resp.status == STARTED and not waitOnFlip:
+            theseKeys = job_posting_key_resp.getKeys(keyList=['space'], waitRelease=False)
+            _job_posting_key_resp_allKeys.extend(theseKeys)
+            if len(_job_posting_key_resp_allKeys):
+                job_posting_key_resp.keys = _job_posting_key_resp_allKeys[-1].name  # just the last key pressed
+                job_posting_key_resp.rt = _job_posting_key_resp_allKeys[-1].rt
+                job_posting_key_resp.duration = _job_posting_key_resp_allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+            if eyetracker:
+                eyetracker.setConnectionState(False)
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in job_postingComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "job_posting" ---
+    for thisComponent in job_postingComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # check responses
+    if job_posting_key_resp.keys in ['', [], None]:  # No response was made
+        job_posting_key_resp.keys = None
+    exp1_stimulus_loop.addData('job_posting_key_resp.keys',job_posting_key_resp.keys)
+    if job_posting_key_resp.keys != None:  # we had a response
+        exp1_stimulus_loop.addData('job_posting_key_resp.rt', job_posting_key_resp.rt)
+        exp1_stimulus_loop.addData('job_posting_key_resp.duration', job_posting_key_resp.duration)
+    # the Routine "job_posting" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
     # --- Prepare to start Routine "exp1_stimulus" ---
@@ -1249,6 +1383,118 @@ for thisExp2_stimulus_loop in exp2_stimulus_loop:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # the Routine "ready_up" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
+    # --- Prepare to start Routine "job_posting" ---
+    continueRoutine = True
+    # update component parameters for each repeat
+    job_posting_key_resp.keys = []
+    job_posting_key_resp.rt = []
+    _job_posting_key_resp_allKeys = []
+    # keep track of which components have finished
+    job_postingComponents = [job_description, job_posting_key_resp]
+    for thisComponent in job_postingComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "job_posting" ---
+    routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *job_description* updates
+        
+        # if job_description is starting this frame...
+        if job_description.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            job_description.frameNStart = frameN  # exact frame index
+            job_description.tStart = t  # local t and not account for scr refresh
+            job_description.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(job_description, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'job_description.started')
+            # update status
+            job_description.status = STARTED
+            job_description.setAutoDraw(True)
+        
+        # if job_description is active this frame...
+        if job_description.status == STARTED:
+            # update params
+            pass
+        
+        # *job_posting_key_resp* updates
+        waitOnFlip = False
+        
+        # if job_posting_key_resp is starting this frame...
+        if job_posting_key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            job_posting_key_resp.frameNStart = frameN  # exact frame index
+            job_posting_key_resp.tStart = t  # local t and not account for scr refresh
+            job_posting_key_resp.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(job_posting_key_resp, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'job_posting_key_resp.started')
+            # update status
+            job_posting_key_resp.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(job_posting_key_resp.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(job_posting_key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if job_posting_key_resp.status == STARTED and not waitOnFlip:
+            theseKeys = job_posting_key_resp.getKeys(keyList=['space'], waitRelease=False)
+            _job_posting_key_resp_allKeys.extend(theseKeys)
+            if len(_job_posting_key_resp_allKeys):
+                job_posting_key_resp.keys = _job_posting_key_resp_allKeys[-1].name  # just the last key pressed
+                job_posting_key_resp.rt = _job_posting_key_resp_allKeys[-1].rt
+                job_posting_key_resp.duration = _job_posting_key_resp_allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+            if eyetracker:
+                eyetracker.setConnectionState(False)
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in job_postingComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "job_posting" ---
+    for thisComponent in job_postingComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # check responses
+    if job_posting_key_resp.keys in ['', [], None]:  # No response was made
+        job_posting_key_resp.keys = None
+    exp2_stimulus_loop.addData('job_posting_key_resp.keys',job_posting_key_resp.keys)
+    if job_posting_key_resp.keys != None:  # we had a response
+        exp2_stimulus_loop.addData('job_posting_key_resp.rt', job_posting_key_resp.rt)
+        exp2_stimulus_loop.addData('job_posting_key_resp.duration', job_posting_key_resp.duration)
+    # the Routine "job_posting" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
     # --- Prepare to start Routine "exp2_stimulus" ---
