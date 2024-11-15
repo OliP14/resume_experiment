@@ -1,8 +1,0 @@
-﻿stim,calib_loop.thisRepN,calib_loop.thisTrialN,calib_loop.thisN,calib_loop.thisIndex,stimulus_loop.thisRepN,stimulus_loop.thisTrialN,stimulus_loop.thisN,stimulus_loop.thisIndex,calib_instr_text.started,calib_instr_resp.started,calib_text.started,calib_resp.started,calib_resp.keys,calib_resp.rt,calib_resp.duration,image.started,etRecord.started,task,participant,date,expName,psychopyVersion,frameRate,
-,0,0,0,0,,,,,23.779486800078303,23.779486800078303,78.27809179993346,78.27809179993346,['n'],[3.5467699002474546],[None],,,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,
-./stimuli/museum_signage_2.jpg,,,,,0,0,0,3,,,,,,,,81.96137379994616,0.12277900008484721,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,
-./stimuli/museum_signage_3.jpg,,,,,0,1,1,1,,,,,,,,89.92777899978682,0.0835621003061533,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,
-./stimuli/museum_signage_1.jpg,,,,,0,2,2,0,,,,,,,,97.91113119991496,0.07312409998849034,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,
-./stimuli/museum_signage_6.jpg,,,,,0,3,3,5,,,,,,,,105.92754349997267,0.07732830010354519,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,
-./stimuli/museum_signage_4.jpg,,,,,0,4,4,4,,,,,,,,113.92751569999382,0.07576140016317368,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,
-./stimuli/museum_signage_5.jpg,,,,,0,5,5,2,,,,,,,,121.91056169988587,0.07260690024122596,test,oliver,2024-10-27_01h43.34.319,calib_ET,2023.1.3,59.98217335785638,

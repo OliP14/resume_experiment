@@ -1,0 +1,298 @@
+2331.2220 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002BB559A8580>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002BB559A8100>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002BB559A8D30>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002BB5C523880>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+2331.2220 	EXP 	window1: mouseVisible = True
+2331.2221 	EXP 	window1: backgroundImage = ''
+2331.2221 	EXP 	window1: backgroundFit = 'none'
+2331.2221 	EXP 	window1: mouseVisible = False
+2331.2221 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+2331.2221 	EXP 	window1: recordFrameIntervals = False
+2331.3883 	EXP 	window1: recordFrameIntervals = True
+2331.5717 	EXP 	Screen (0) actual frame rate measured at 59.97Hz
+2331.5718 	EXP 	window1: recordFrameIntervals = False
+2335.2358 	EXP 	Created calib_instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='calib_instr_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.2363 	EXP 	Created calib_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='calib_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+2335.2418 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.2506 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+2335.2561 	EXP 	Created candidate_rating_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='candidate_rating_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.2602 	EXP 	window1: mouseVisible = True
+2335.2701 	EXP 	Created candidate_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='candidate_rating', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+2335.2726 	EXP 	Created image_clarity_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='image_clarity_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.2747 	EXP 	window1: mouseVisible = True
+2335.2836 	EXP 	Created image_clarity_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='image_clarity_rating', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+2335.2879 	EXP 	Created comprehension_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='comprehension_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.2899 	EXP 	window1: mouseVisible = True
+2335.2988 	EXP 	Created comprehension_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='comprehension_rating', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+2335.3024 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.3102 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+2335.3126 	EXP 	Created candidate_rating_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='candidate_rating_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.3148 	EXP 	window1: mouseVisible = True
+2335.3243 	EXP 	Created candidate_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='candidate_rating', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+2335.3267 	EXP 	Created image_clarity_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='image_clarity_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.3287 	EXP 	window1: mouseVisible = True
+2335.3376 	EXP 	Created image_clarity_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='image_clarity_rating', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+2335.3404 	EXP 	Created comprehension_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='comprehension_question', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+2335.3424 	EXP 	window1: mouseVisible = True
+2335.3514 	EXP 	Created comprehension_rating = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='comprehension_rating', opacity=None, ori=0.0, pos=array([ 0. , -0.4]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+2335.3547 	EXP 	candidate_rating: autoLog = True
+2335.3547 	EXP 	candidate_rating: markerPos = None
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: contrast = 1.0
+2335.3547 	EXP 	candidate_rating: autoLog = True
+2335.3547 	EXP 	image_clarity_rating: autoLog = True
+2335.3547 	EXP 	image_clarity_rating: markerPos = None
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: contrast = 1.0
+2335.3547 	EXP 	image_clarity_rating: autoLog = True
+2335.3547 	EXP 	comprehension_rating: autoLog = True
+2335.3547 	EXP 	comprehension_rating: markerPos = None
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: contrast = 1.0
+2335.3547 	EXP 	comprehension_rating: autoLog = True
+2335.3547 	EXP 	candidate_rating: autoLog = True
+2335.3547 	EXP 	candidate_rating: markerPos = None
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: styleTweaks = []
+2335.3547 	EXP 	candidate_rating: contrast = 1.0
+2335.3547 	EXP 	candidate_rating: autoLog = True
+2335.3547 	EXP 	image_clarity_rating: autoLog = True
+2335.3547 	EXP 	image_clarity_rating: markerPos = None
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: styleTweaks = []
+2335.3547 	EXP 	image_clarity_rating: contrast = 1.0
+2335.3547 	EXP 	image_clarity_rating: autoLog = True
+2335.3547 	EXP 	comprehension_rating: autoLog = True
+2335.3547 	EXP 	comprehension_rating: markerPos = None
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: styleTweaks = []
+2335.3547 	EXP 	comprehension_rating: contrast = 1.0
+2335.3547 	EXP 	comprehension_rating: autoLog = True
+2335.3547 	EXP 	calib_instr_text: autoDraw = True
+2338.6053 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+2338.6054 	EXP 	New trial (rep=0, index=0): None
+2338.6071 	EXP 	Created calibrationTarget = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTarget', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+2338.6087 	EXP 	Created calibrationTargetInner = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='calibrationTargetInner', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.007, 0.007]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+2366.6459 	DATA 	Keypress: space
+2366.6536 	EXP 	calib_instr_text: autoDraw = False
+2366.6562 	EXP 	Created validationTarget = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='validationTarget', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+2366.6579 	EXP 	Created validationTargetInner = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=2.0, name='validationTargetInner', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.007, 0.007]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+2367.4021 	EXP 	Created unnamed GratingStim = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=0, interpolate=False, mask='gauss', maskParams=None, name='unnamed GratingStim', opacity=0.8, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([0.00981534, 0.00981534]), size=array([101.881344, 101.881344]), tex=None, texRes=128, units='pix', win=Window(...))
+2386.7406 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([0., 0., 0.]), colorSpace='rgb255', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=24.0, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([  0., 513.]), rgb=UNKNOWN, text=str(...), units='pix', win=Window(...), wrapWidth=1536.0)
+2386.7456 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=True, color=array([0., 0., 0.]), colorSpace='rgb255', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=20.0, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([   0., -513.]), rgb=UNKNOWN, text='Press SPACE to continue.', units='pix', win=Window(...), wrapWidth=1536.0)
+2388.1077 	DATA 	Keypress: space
+2388.1203 	EXP 	calib_text: height = 0.05
+2388.1203 	EXP 	calib_text: height = 0.05
+2388.1203 	EXP 	calib_text: height = 0.05
+2388.1203 	EXP 	calib_text: text = 'Average error is: 84.550000\n\nValid points: 9\n\nRecalibrate (y/n)?'
+2388.1203 	EXP 	calib_text: autoDraw = True
+2389.2231 	EXP 	Imported exp1_stim.csv as conditions, 2 conditions, 1 params
+2389.2233 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+2389.2234 	EXP 	New trial (rep=0, index=0): OrderedDict([('exp1_stim', './stimuli/Resume2.png')])
+2389.2244 	DATA 	Keypress: n
+2389.2372 	EXP 	calib_text: autoDraw = False
+2389.2372 	EXP 	text: autoDraw = True
+2435.6529 	EXP 	eyetracker.clearEvents()
+2435.6570 	EXP 	eyetracker.setRecordingState(True)
+2435.6579 	DATA 	Keypress: space
+2435.6695 	EXP 	text: autoDraw = False
+2435.6695 	EXP 	image: image = './stimuli/Resume2.png'
+2435.6695 	EXP 	image: autoDraw = True
+2443.4587 	EXP 	eyetracker.setRecordingState(False)
+2443.4691 	EXP 	image: autoDraw = False
+2443.4691 	EXP 	candidate_rating: markerPos = None
+2443.4691 	EXP 	candidate_rating: markerPos = None
+2443.4691 	EXP 	candidate_rating_question: autoDraw = True
+2443.4691 	EXP 	candidate_rating: autoDraw = True
+2449.6208 	DATA 	Mouse: Left button down, pos=(980,103)
+2449.6356 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.6524 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.6691 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.6858 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.7023 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.7191 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.7200 	DATA 	Mouse:  Left button up, pos=(980,103)
+2449.7357 	EXP 	candidate_rating: markerPos = 3.074074074074074
+2449.7523 	EXP 	candidate_rating_question: autoDraw = False
+2449.7523 	EXP 	candidate_rating: autoDraw = False
+2449.7523 	EXP 	image_clarity_rating: markerPos = None
+2449.7523 	EXP 	image_clarity_rating: markerPos = None
+2449.7523 	EXP 	image_clarity_question: autoDraw = True
+2449.7523 	EXP 	image_clarity_rating: autoDraw = True
+2454.2865 	DATA 	Mouse: Left button down, pos=(1206,111)
+2454.3023 	EXP 	image_clarity_rating: markerPos = 3.911111111111111
+2454.3190 	EXP 	image_clarity_rating: markerPos = 3.911111111111111
+2454.3356 	EXP 	image_clarity_rating: markerPos = 3.911111111111111
+2454.3365 	DATA 	Mouse:  Left button up, pos=(1206,111)
+2454.3524 	EXP 	image_clarity_rating: markerPos = 3.911111111111111
+2454.3689 	EXP 	image_clarity_question: autoDraw = False
+2454.3689 	EXP 	image_clarity_rating: autoDraw = False
+2454.3689 	EXP 	comprehension_rating: markerPos = None
+2454.3689 	EXP 	comprehension_rating: markerPos = None
+2454.3689 	EXP 	comprehension_question: autoDraw = True
+2454.3689 	EXP 	comprehension_rating: autoDraw = True
+2457.7864 	DATA 	Mouse: Left button down, pos=(1497,90)
+2457.8022 	EXP 	comprehension_rating: markerPos = 4.988888888888889
+2457.8188 	EXP 	comprehension_rating: markerPos = 4.988888888888889
+2457.8356 	EXP 	comprehension_rating: markerPos = 4.988888888888889
+2457.8381 	DATA 	Mouse:  Left button up, pos=(1497,90)
+2457.8521 	EXP 	comprehension_rating: markerPos = 4.988888888888889
+2457.8688 	EXP 	comprehension_rating: markerPos = 4.988888888888889
+2457.8702 	EXP 	New trial (rep=0, index=1): OrderedDict([('exp1_stim', './stimuli/Resume1.png')])
+2457.8856 	EXP 	comprehension_question: autoDraw = False
+2457.8856 	EXP 	comprehension_rating: autoDraw = False
+2457.8856 	EXP 	text: autoDraw = True
+2462.6577 	EXP 	eyetracker.clearEvents()
+2462.6638 	EXP 	eyetracker.setRecordingState(True)
+2462.6645 	DATA 	Keypress: space
+2462.6688 	EXP 	text: autoDraw = False
+2462.6688 	EXP 	image: image = './stimuli/Resume1.png'
+2462.6688 	EXP 	image: autoDraw = True
+2470.6063 	EXP 	eyetracker.setRecordingState(False)
+2470.6185 	EXP 	image: autoDraw = False
+2470.6185 	EXP 	candidate_rating: markerPos = None
+2470.6185 	EXP 	candidate_rating: markerPos = None
+2470.6185 	EXP 	candidate_rating_question: autoDraw = True
+2470.6185 	EXP 	candidate_rating: autoDraw = True
+2473.6535 	DATA 	Mouse: Left button down, pos=(1483,98)
+2473.6685 	EXP 	candidate_rating: markerPos = 4.937037037037037
+2473.6852 	EXP 	candidate_rating: markerPos = 4.937037037037037
+2473.7019 	EXP 	candidate_rating: markerPos = 4.937037037037037
+2473.7185 	EXP 	candidate_rating: markerPos = 4.937037037037037
+2473.7196 	DATA 	Mouse:  Left button up, pos=(1483,98)
+2473.7352 	EXP 	candidate_rating: markerPos = 4.937037037037037
+2473.7518 	EXP 	candidate_rating_question: autoDraw = False
+2473.7518 	EXP 	candidate_rating: autoDraw = False
+2473.7518 	EXP 	image_clarity_rating: markerPos = None
+2473.7518 	EXP 	image_clarity_rating: markerPos = None
+2473.7518 	EXP 	image_clarity_question: autoDraw = True
+2473.7518 	EXP 	image_clarity_rating: autoDraw = True
+2475.9368 	DATA 	Mouse: Left button down, pos=(1224,103)
+2475.9685 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2475.9851 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2476.0018 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2476.0045 	DATA 	Mouse:  Left button up, pos=(1224,103)
+2476.0185 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2476.0352 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2476.0518 	EXP 	image_clarity_question: autoDraw = False
+2476.0518 	EXP 	image_clarity_rating: autoDraw = False
+2476.0518 	EXP 	comprehension_rating: markerPos = None
+2476.0518 	EXP 	comprehension_rating: markerPos = None
+2476.0518 	EXP 	comprehension_question: autoDraw = True
+2476.0518 	EXP 	comprehension_rating: autoDraw = True
+2487.2541 	DATA 	Mouse: Left button down, pos=(955,112)
+2487.2848 	EXP 	comprehension_rating: markerPos = 2.9814814814814814
+2487.3015 	EXP 	comprehension_rating: markerPos = 2.9814814814814814
+2487.3182 	EXP 	comprehension_rating: markerPos = 2.9814814814814814
+2487.3349 	EXP 	comprehension_rating: markerPos = 2.9814814814814814
+2487.3358 	DATA 	Mouse:  Left button up, pos=(955,112)
+2487.3516 	EXP 	comprehension_rating: markerPos = 2.9814814814814814
+2487.3702 	EXP 	Imported exp2_stim.csv as conditions, 2 conditions, 1 params
+2487.3704 	EXP 	Created sequence: random, trialTypes=2, nReps=1, seed=None
+2487.3705 	EXP 	New trial (rep=0, index=0): OrderedDict([('exp2_stim', './stimuli/Resume4.png')])
+2487.3849 	EXP 	comprehension_question: autoDraw = False
+2487.3849 	EXP 	comprehension_rating: autoDraw = False
+2487.3849 	EXP 	text: autoDraw = True
+2489.9911 	EXP 	eyetracker.clearEvents()
+2489.9959 	EXP 	eyetracker.setRecordingState(True)
+2489.9967 	DATA 	Keypress: space
+2490.0015 	EXP 	text: autoDraw = False
+2490.0015 	EXP 	image_2: image = './stimuli/Resume4.png'
+2490.0015 	EXP 	image_2: autoDraw = True
+2497.8531 	EXP 	eyetracker.setRecordingState(False)
+2497.8680 	EXP 	image_2: autoDraw = False
+2497.8680 	EXP 	candidate_rating: markerPos = None
+2497.8680 	EXP 	candidate_rating: markerPos = None
+2497.8680 	EXP 	candidate_rating_question: autoDraw = True
+2497.8680 	EXP 	candidate_rating: autoDraw = True
+2500.1199 	DATA 	Mouse: Left button down, pos=(1229,98)
+2500.1513 	EXP 	candidate_rating: markerPos = 3.9962962962962965
+2500.1679 	EXP 	candidate_rating: markerPos = 3.9962962962962965
+2500.1847 	EXP 	candidate_rating: markerPos = 3.9962962962962965
+2500.1854 	DATA 	Mouse:  Left button up, pos=(1229,98)
+2500.2013 	EXP 	candidate_rating: markerPos = 3.9962962962962965
+2500.2179 	EXP 	candidate_rating_question: autoDraw = False
+2500.2179 	EXP 	candidate_rating: autoDraw = False
+2500.2179 	EXP 	image_clarity_rating: markerPos = None
+2500.2179 	EXP 	image_clarity_rating: markerPos = None
+2500.2179 	EXP 	image_clarity_question: autoDraw = True
+2500.2179 	EXP 	image_clarity_rating: autoDraw = True
+2503.8690 	DATA 	Mouse: Left button down, pos=(1224,108)
+2503.8845 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2503.9013 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2503.9178 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2503.9187 	DATA 	Mouse:  Left button up, pos=(1224,108)
+2503.9346 	EXP 	image_clarity_rating: markerPos = 3.977777777777778
+2503.9513 	EXP 	image_clarity_question: autoDraw = False
+2503.9513 	EXP 	image_clarity_rating: autoDraw = False
+2503.9513 	EXP 	comprehension_rating: markerPos = None
+2503.9513 	EXP 	comprehension_rating: markerPos = None
+2503.9513 	EXP 	comprehension_question: autoDraw = True
+2503.9513 	EXP 	comprehension_rating: autoDraw = True
+2511.4539 	DATA 	Mouse: Left button down, pos=(964,118)
+2511.4844 	EXP 	comprehension_rating: markerPos = 3.0148148148148146
+2511.5010 	EXP 	comprehension_rating: markerPos = 3.0148148148148146
+2511.5178 	EXP 	comprehension_rating: markerPos = 3.0148148148148146
+2511.5187 	DATA 	Mouse:  Left button up, pos=(964,118)
+2511.5344 	EXP 	comprehension_rating: markerPos = 3.0148148148148146
+2511.5357 	EXP 	New trial (rep=0, index=1): OrderedDict([('exp2_stim', './stimuli/Resume3.png')])
+2511.5511 	EXP 	comprehension_question: autoDraw = False
+2511.5511 	EXP 	comprehension_rating: autoDraw = False
+2511.5511 	EXP 	text: autoDraw = True
+2513.5580 	EXP 	eyetracker.clearEvents()
+2513.5583 	EXP 	eyetracker.setRecordingState(True)
+2513.5589 	DATA 	Keypress: space
+2513.5675 	EXP 	text: autoDraw = False
+2513.5675 	EXP 	image_2: image = './stimuli/Resume3.png'
+2513.5675 	EXP 	image_2: autoDraw = True
+2521.5063 	EXP 	eyetracker.setRecordingState(False)
+2521.5176 	EXP 	image_2: autoDraw = False
+2521.5176 	EXP 	candidate_rating: markerPos = None
+2521.5176 	EXP 	candidate_rating: markerPos = None
+2521.5176 	EXP 	candidate_rating_question: autoDraw = True
+2521.5176 	EXP 	candidate_rating: autoDraw = True
+2523.0020 	DATA 	Mouse: Left button down, pos=(1233,90)
+2523.0174 	EXP 	candidate_rating: markerPos = 4.011111111111111
+2523.0341 	EXP 	candidate_rating: markerPos = 4.011111111111111
+2523.0366 	DATA 	Mouse:  Left button up, pos=(1233,90)
+2523.0507 	EXP 	candidate_rating: markerPos = 4.011111111111111
+2523.0674 	EXP 	candidate_rating: markerPos = 4.011111111111111
+2523.0841 	EXP 	candidate_rating_question: autoDraw = False
+2523.0841 	EXP 	candidate_rating: autoDraw = False
+2523.0841 	EXP 	image_clarity_rating: markerPos = None
+2523.0841 	EXP 	image_clarity_rating: markerPos = None
+2523.0841 	EXP 	image_clarity_question: autoDraw = True
+2523.0841 	EXP 	image_clarity_rating: autoDraw = True
+2525.6029 	DATA 	Mouse: Left button down, pos=(972,108)
+2525.6340 	EXP 	image_clarity_rating: markerPos = 3.0444444444444443
+2525.6507 	EXP 	image_clarity_rating: markerPos = 3.0444444444444443
+2525.6516 	DATA 	Mouse:  Left button up, pos=(972,108)
+2525.6674 	EXP 	image_clarity_rating: markerPos = 3.0444444444444443
+2525.6841 	EXP 	image_clarity_question: autoDraw = False
+2525.6841 	EXP 	image_clarity_rating: autoDraw = False
+2525.6841 	EXP 	comprehension_rating: markerPos = None
+2525.6841 	EXP 	comprehension_rating: markerPos = None
+2525.6841 	EXP 	comprehension_question: autoDraw = True
+2525.6841 	EXP 	comprehension_rating: autoDraw = True
+2527.1029 	DATA 	Mouse: Left button down, pos=(1223,99)
+2527.1340 	EXP 	comprehension_rating: markerPos = 3.974074074074074
+2527.1507 	EXP 	comprehension_rating: markerPos = 3.974074074074074
+2527.1673 	EXP 	comprehension_rating: markerPos = 3.974074074074074
+2527.1733 	DATA 	Mouse:  Left button up, pos=(1223,99)
+2527.1840 	EXP 	comprehension_rating: markerPos = 3.974074074074074
+2527.2008 	EXP 	comprehension_rating: markerPos = 3.974074074074074
+2527.2175 	EXP 	comprehension_question: autoDraw = False
+2527.2175 	EXP 	comprehension_rating: autoDraw = False
+2527.5366 	EXP 	window1: mouseVisible = True
